@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таблица2</title>
+        
+<style>
+  .table2 {
+    width: 400px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    height: 100px;
+    border: 1px solid black;
+  }
+  
+  .table2 td {
+    border: 1px solid black;
+    padding: 10px;
+    width: 50px;
+    height: 30px;
+  }
+  
+  .green{
+    background-color: rgb(0, 255, 208);
+  }
+  .yellow{
+    background-color: rgb(255, 255, 144);
+  }
+  .red{
+    background-color: red;
+  }
+  .blue{
+    background-color: blue;
+  }
+  .green2{
+    background-color: greenyellow;
+  }
+  .yellow2{
+    background-color: yellow;
+  }
+</style>
+</head>
+<body>
+
+
+<table class="table2">
+  <tbody>
+    <tr>
+      <td colspan="8" class="green"></td>
+    </tr>
+    <tr>
+      <td rowspan="6" class="yellow"></td>
+      <td colspan="6" class="green"></td>
+      <td rowspan="6" class="yellow"></td>
+    </tr>
+    <tr>
+      <td rowspan="4" class="yellow"></td>
+      <td colspan="4" class="green"></td>
+      <td rowspan="4" class="yellow"></td>
+    </tr>
+    <tr>
+      <td rowspan="2" class="yellow"></td>
+      <td class="red"></td>
+      <td class="blue"></td>
+      <td rowspan="2" class="yellow"></td>
+    </tr>
+    <tr>
+      <td class="green2"></td>
+      <td class="yellow2"></td>
+    </tr>
+    <tr>
+      <td colspan="4" class="green"></td>
+    </tr>
+    <tr>
+      <td colspan="6" class="green"></td>
+    </tr>
+    <tr>
+      <td colspan="8" class="green"></td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

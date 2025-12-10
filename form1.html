@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма1</title>
+    <style>
+        div{
+            display: flex;
+            height: 30px;
+            align-items: center;
+            width: 50%;
+            justify-content: center;
+            gap: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form action="#">
+            <h1>ЗАО Птицефабрика №1</h1>
+        <div>
+            <p>Фамилия</p>
+            <input type="text">
+        </div>
+        <div>
+            <p>Инициалы</p>
+            <input type="text">
+        </div>
+        <div>
+            <p>Пароль</p>
+            <input type="password">
+        </div>
+        <div>
+            <p>Адрес вручения</p>
+            <input type="text">
+        </div>
+        <div>
+            <p>Количество</p>
+            <input type="number">
+        </div>
+        <div>
+            <p>Тип</p>
+            <select name="type" id="type">
+                <option value="Куринные">Куринные</option>
+                <option value="Перепелиные">Перепелиные</option>
+            </select>
+            <select name="type" id="type">
+                <option value="Отборные">Отборные</option>
+            </select>
+        </div>
+        <div>
+            <p>Доставка</p>
+            <input type="radio" name="dely" value="Почтой"> Почтой
+            <input type="radio" name="dely" value="Электронно"> Электронно
+            <input type="radio" name="dely" value="Курьер"> Курьер
+        </div>
+        <div>
+            <p>Требуется накладная</p>
+            <input type="checkbox" name="nac" id="a">
+        </div>
+        <div>
+            <p>Дополнительная информация</p>
+            <textarea name="info" id="info"></textarea>
+        </div>
+        <div>
+            <button type="submit">Заказать</button>
+            <button>Отменить</button>
+        </div>
+    </form>
+    
+</body>
+</html>

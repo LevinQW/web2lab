@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form2</title>
+    <style>
+        p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Пример формы регистрации сайта</h1>
+    <form action="#">
+        <p>Логин</p>
+        <input type="text" name="login">
+        <p>Пароль</p>
+        <input type="password" name="password">
+        <p>URL-адрес сайта</p>
+        <input type="url" name="url" id="url" placeholder="https://">
+        <p>Название сайта</p>
+        <input type="text" name="site">
+        <p>Описание сайта</p>
+        <textarea name="info" id="info"></textarea>
+        <p>Тема сайта</p>
+        <select name="tema" id="tema">
+            <option value="Тема не выбрана">Тема не выбрана</option>
+            <option value="Информационная">Информационная</option>
+            <option value="Сервис">Сервис</option>
+        </select>
+        <p>Баннер</p>
+        <input type="file">
+        <div style="margin: 10px;">
+            <button type="reset">Очистить</button>
+            <button type="submit">Отправить</button>
+        </div>
+    </form>
+    
+</body>
+</html>

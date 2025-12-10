@@ -1,0 +1,60 @@
+h1{
+    margin: 0px;
+    margin-bottom: 10px;
+    font-size: 300%;
+}
+h3{
+    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 200%;
+}
+li{
+    font-size: 150%;
+}
+.fio{
+    font-size: 150%;
+}
+#stu_info{
+    margin-top: 30px;
+    border-top: rgb(130, 130, 130) 2px solid;
+    padding-top: 30px;
+}
+.ava{
+    height: 300px;
+    border-radius: 100%;
+}
+#vuz, #prof, #hobby, #zada{
+    margin-top: 30px;
+    border-top: rgb(130, 130, 130) 2px solid;
+    padding-top: 30px;
+}
+a{
+    margin-top: 10px;
+}
+#vuz p{
+    font-size: 150%;
+}
+
+#prof p{
+    font-size: 150%;
+}
+#prof img{
+    height: 400px;
+}
+td, th{
+    border: 1px rgb(195, 195, 195) solid;
+    padding: 10px;
+}
+table{
+    border-spacing: 0px;
+    border: 1px solid rgb(195, 195, 195);
+}
+
+#hobby img{
+    height: 300px;
+}
+
+#hobby p{
+    font-size: 150%;
+}
